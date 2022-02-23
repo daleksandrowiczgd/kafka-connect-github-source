@@ -41,6 +41,7 @@ public class GitHubSourceConnector extends SourceConnector {
     public void stop() {
         // Do things that are necessary to stop your connector.
         // nothing is necessary to stop for this connector
+        // e.g. stopping the database connection
     }
 
     @Override
