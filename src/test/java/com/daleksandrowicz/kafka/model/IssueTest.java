@@ -1,7 +1,7 @@
-package com.simplesteph.kafka.model;
+package com.daleksandrowicz.kafka.model;
 
-import com.simplesteph.kafka.GitHubSchemas;
-import com.simplesteph.kafka.GitHubSourceTask;
+import com.daleksandrowicz.kafka.GitHubSchemas;
+import com.daleksandrowicz.kafka.GitHubSourceTask;
 import org.apache.kafka.connect.data.Struct;
 import org.json.JSONObject;
 import org.junit.Test;

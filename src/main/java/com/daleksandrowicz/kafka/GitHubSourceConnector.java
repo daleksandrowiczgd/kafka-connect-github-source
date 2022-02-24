@@ -1,4 +1,4 @@
-package com.simplesteph.kafka;
+package com.daleksandrowicz.kafka;
 
 import java.util.ArrayList;
 import java.util.List;

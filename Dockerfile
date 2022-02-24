@@ -1,4 +1,4 @@
-FROM confluentinc/cp-kafka-connect:3.2.0
+FROM confluentinc/cp-kafka-connect:7.0.1
 
 WORKDIR /kafka-connect-source-github
 COPY config config

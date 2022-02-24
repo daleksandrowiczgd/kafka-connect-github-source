@@ -23,7 +23,7 @@ This connector is not perfect and can be improved, please feel free to submit an
 ```
 name=GitHubSourceConnectorDemo
 tasks.max=1
-connector.class=com.simplesteph.kafka.GitHubSourceConnector
+connector.class=GitHubSourceConnector
 topic=github-issues
 github.owner=kubernetes
 github.repo=kubernetes

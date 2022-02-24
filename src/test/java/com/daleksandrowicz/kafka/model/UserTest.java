@@ -1,4 +1,4 @@
-package com.simplesteph.kafka.model;
+package com.daleksandrowicz.kafka.model;
 
 import org.json.JSONObject;
 import org.junit.Test;

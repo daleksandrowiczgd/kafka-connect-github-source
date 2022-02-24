@@ -1,4 +1,4 @@
-package com.simplesteph.kafka;
+package com.daleksandrowicz.kafka;
 
 import org.apache.kafka.connect.data.Schema;
 import org.apache.kafka.connect.data.SchemaBuilder;

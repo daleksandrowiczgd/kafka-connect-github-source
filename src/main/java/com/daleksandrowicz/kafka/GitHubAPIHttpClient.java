@@ -1,4 +1,4 @@
-package com.simplesteph.kafka;
+package com.daleksandrowicz.kafka;
 
 import com.mashape.unirest.http.Headers;
 import com.mashape.unirest.http.HttpResponse;
@@ -43,9 +43,9 @@ public class GitHubAPIHttpClient {
 
             // deal with headers in any case
             Headers headers = jsonResponse.getHeaders();
-            XRateLimit = Integer.valueOf(headers.getFirst(X_RATELIMIT_LIMIT_HEADER));
-            XRateRemaining = Integer.valueOf(headers.getFirst(X_RATELIMIT_REMAINING_HEADER));
-            XRateReset = Integer.valueOf(headers.getFirst(X_RATELIMIT_RESET_HEADER));
+//            XRateLimit = Integer.valueOf(headers.getFirst(X_RATELIMIT_LIMIT_HEADER));
+//            XRateRemaining = Integer.valueOf(headers.getFirst(X_RATELIMIT_REMAINING_HEADER));
+//            XRateReset = Integer.valueOf(headers.getFirst(X_RATELIMIT_RESET_HEADER));
             switch (jsonResponse.getStatus()){
                 case 200:
                     return jsonResponse.getBody().getArray();

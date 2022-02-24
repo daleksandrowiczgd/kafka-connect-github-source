@@ -1,5 +1,5 @@
 
-package com.simplesteph.kafka.model;
+package com.daleksandrowicz.kafka.model;
 
 import org.json.JSONObject;
 
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.simplesteph.kafka.GitHubSchemas.*;
+import static com.daleksandrowicz.kafka.GitHubSchemas.*;
 
 public class Issue {
 

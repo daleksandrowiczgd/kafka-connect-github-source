@@ -1,4 +1,4 @@
-package com.simplesteph.kafka.Validators;
+package com.daleksandrowicz.kafka.Validators;
 
 import org.apache.kafka.common.config.ConfigDef;
 import org.apache.kafka.common.config.ConfigException;
